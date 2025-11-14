@@ -1,6 +1,7 @@
 const express = require('express');
 const multer = require('multer');
-const { GoogleGenerativeAI, GoogleAIFileManager } = require('@google/generative-ai');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { GoogleAIFileManager } = require('@google/generative-ai/server');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const path = require('path');
