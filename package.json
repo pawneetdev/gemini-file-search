@@ -1,0 +1,20 @@
+{
+  "name": "gemini-file-search",
+  "version": "1.0.0",
+  "description": "A demo app showcasing Google Gemini's file search capabilities for RAG",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["gemini", "rag", "file-search", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  }
+}
